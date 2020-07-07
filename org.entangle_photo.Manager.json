@@ -11,6 +11,7 @@
         "--socket=wayland",
 	"--filesystem=/media",
 	"--filesystem=/run/media",
+	"--filesystem=/run/udev",
 	"--filesystem=xdg-pictures",
         "--metadata=X-DConf=migrate-path=/org/entangle-photo/manager/",
         /* Needed for gvfs to work */
