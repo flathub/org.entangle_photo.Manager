@@ -1,7 +1,7 @@
 {
     "app-id": "org.entangle_photo.Manager",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "45",
+    "runtime-version": "44",
     "sdk": "org.gnome.Sdk",
     "command": "entangle",
     "finish-args": [
@@ -29,8 +29,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://downloads.sourceforge.net/project/gphoto/libgphoto/2.5.31/libgphoto2-2.5.31.tar.bz2",
-                    "sha256" : "4f81c34c0b812bee67afd5f144940fbcbe01a2055586a6a1fa2d0626024a545b"
+                    "url" : "https://downloads.sourceforge.net/project/gphoto/libgphoto/2.5.29/libgphoto2-2.5.29.tar.bz2",
+                    "sha256" : "dbe3cefad8c634fc134d93467a33e242cb1030f0b9829deb9f1703f368ac027e"
                 }
             ]
         },
