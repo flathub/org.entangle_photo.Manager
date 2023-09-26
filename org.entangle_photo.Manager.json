@@ -61,8 +61,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.0.tar.gz",
-                    "sha256": "04c0675caf4338bb96cd09982f1246d588bcbfe8648c0f5a30b56c7c496f1a0b"
+                    "url": "http://www.exiv2.org/builds/exiv2-0.27.5-Source.tar.gz",
+                    "sha256": "35a58618ab236a901ca4928b0ad8b31007ebdc0386d904409d825024e45ea6e2"
                 }
             ]
         },
@@ -80,7 +80,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/gexiv2.git/",
-                    "commit" : "dd7fe2f9899d7f914946a20d8bf224248196725c"
+                    "commit" : "e3046adf3029db6dd6f3dc7edab30b18ff7d7014"
                 }
             ]
         },
