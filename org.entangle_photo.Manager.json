@@ -1,7 +1,7 @@
 {
     "app-id": "org.entangle_photo.Manager",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "45",
     "sdk": "org.gnome.Sdk",
     "command": "entangle",
     "finish-args": [
@@ -29,8 +29,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://downloads.sourceforge.net/project/gphoto/libgphoto/2.5.29/libgphoto2-2.5.29.tar.bz2",
-                    "sha256" : "dbe3cefad8c634fc134d93467a33e242cb1030f0b9829deb9f1703f368ac027e"
+                    "url" : "https://downloads.sourceforge.net/project/gphoto/libgphoto/2.5.31/libgphoto2-2.5.31.tar.bz2",
+                    "sha256" : "4f81c34c0b812bee67afd5f144940fbcbe01a2055586a6a1fa2d0626024a545b"
                 }
             ]
         },
@@ -46,8 +46,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/libpeas/1.26/libpeas-1.26.0.tar.xz",
-                    "sha256": "a976d77e20496479a8e955e6a38fb0e5c5de89cf64d9f44e75c2213ee14f7376"
+                    "url": "https://download.gnome.org/sources/libpeas/2.0/libpeas-2.0.0.tar.xz",
+                    "sha256": "5407acbc0c12f790f70c9d2b98224acc1be3ac449c60603b8192ca020b497011"
                 }
             ]
         },
@@ -61,8 +61,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://www.exiv2.org/builds/exiv2-0.27.5-Source.tar.gz",
-                    "sha256": "35a58618ab236a901ca4928b0ad8b31007ebdc0386d904409d825024e45ea6e2"
+                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.0.tar.gz",
+                    "sha256": "04c0675caf4338bb96cd09982f1246d588bcbfe8648c0f5a30b56c7c496f1a0b"
                 }
             ]
         },
@@ -80,7 +80,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/gexiv2.git/",
-                    "commit" : "e3046adf3029db6dd6f3dc7edab30b18ff7d7014"
+                    "commit" : "dd7fe2f9899d7f914946a20d8bf224248196725c"
                 }
             ]
         },
@@ -96,8 +96,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libraw.org/data/LibRaw-0.19.4.tar.gz",
-                    "sha256": "13c51cc5d679c36aed9c7db9a9673180e939a822e9d55b5bc28dd73113ff961f"
+                    "url": "https://www.libraw.org/data/LibRaw-0.21.1.tar.gz",
+                    "sha256": "630a6bcf5e65d1b1b40cdb8608bdb922316759bfb981c65091fec8682d1543cd"
                 },
                 {
                     "type": "patch",
