@@ -114,6 +114,10 @@
                     "type": "archive",
                     "url": "http://entangle-photo.org/download/sources/entangle-3.0.tar.xz",
                     "sha256": "9285ebab273ebe788d39a7c1bf19717cc6312cfcaa0bc55d65cf5a8d4f42a545"
+                },
+                {
+                    "type": "patch",
+                    "path": "entangle-meson.patch"
                 }
             ]
         }
