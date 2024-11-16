@@ -1,7 +1,7 @@
 {
     "app-id": "org.entangle_photo.Manager",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "45",
+    "runtime-version": "47",
     "sdk": "org.gnome.Sdk",
     "command": "entangle",
     "finish-args": [
@@ -117,7 +117,10 @@
                 },
                 {
                     "type": "patch",
-                    "path": "entangle-meson.patch"
+                    "paths": [
+                        "entangle-meson.patch",
+                        "entangle-metainfo.patch"
+                    ]
                 }
             ]
         }
