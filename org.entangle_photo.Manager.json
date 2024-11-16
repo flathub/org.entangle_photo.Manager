@@ -19,7 +19,14 @@
         /* For USB, until there is a better way in flatpak */
         "--device=all"
     ],
-    "cleanup": ["/lib/*.a", "/lib/*.la", "/lib/pkgconfig", "/include", "/lib/cmake"],
+    "cleanup": [
+        "*.a",
+        "*.la",
+        "/include",
+        "/lib/pkgconfig",
+        "/lib/cmake",
+        "/share/gir-1.0/"
+    ],
     "modules": [
         "shared-modules/libusb/libusb.json",
         {
