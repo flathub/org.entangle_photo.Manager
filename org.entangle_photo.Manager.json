@@ -55,14 +55,17 @@
             "name": "exiv2",
             "buildsystem": "cmake-ninja",
             "cleanup": [ "/lib/exiv2" ],
-            "config-opts": [ "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
-                             "-DEXIV2_BUILD_EXIV2_COMMAND=OFF",
-                             "-DEXIV2_BUILD_SAMPLES=OFF" ],
+            "config-opts": [
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+                "-DEXIV2_BUILD_EXIV2_COMMAND=OFF",
+                "-DEXIV2_ENABLE_BMFF=ON",
+                "-DEXIV2_BUILD_SAMPLES=OFF"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.5/exiv2-0.27.5-Source.tar.gz",
-                    "sha256": "35a58618ab236a901ca4928b0ad8b31007ebdc0386d904409d825024e45ea6e2"
+                    "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.7/exiv2-0.27.7-Source.tar.gz",
+                    "sha256": "70629dc27e3d4dd5c3fa91afbea93166d338b1de284e6a4c44bbf9dcfe7bbc6d"
                 }
             ]
         },
