@@ -1,3 +1,54 @@
+diff --git a/po/fr.po b/po/fr.po
+index 397d9d1..a4e3add 100644
+--- a/po/fr.po
++++ b/po/fr.po
+@@ -618,10 +618,10 @@ msgid "Tear off"
+ msgstr ""
+ 
+ msgid "Tethered Camera Control & Capture"
+-msgstr "Pilotage distant d’APNs & Capture"
++msgstr "Pilotage distant d’APNs et Capture"
+ 
+ msgid "Tethered Camera Control &amp; Capture"
+-msgstr "Contrôle de l’APN connecté &amp; Capture"
++msgstr "Contrôle de l’APN connecté et Capture"
+ 
+ msgid "The Entangle Photo project"
+ msgstr "Le projet photo Entangle"
+diff --git a/po/hu.po b/po/hu.po
+index 56240bf..6142160 100644
+--- a/po/hu.po
++++ b/po/hu.po
+@@ -596,10 +596,10 @@ msgid "Tear off"
+ msgstr ""
+ 
+ msgid "Tethered Camera Control & Capture"
+-msgstr "Összekapcsolt kameravezérlés & képrögzítő"
++msgstr "Összekapcsolt kameravezérlés és képrögzítő"
+ 
+ msgid "Tethered Camera Control &amp; Capture"
+-msgstr ""
++msgstr "Összekapcsolt kameravezérlés &amp; képrögzítő"
+ 
+ msgid "The Entangle Photo project"
+ msgstr ""
+diff --git a/po/nl.po b/po/nl.po
+index c4e8044..2c6df56 100644
+--- a/po/nl.po
++++ b/po/nl.po
+@@ -619,10 +619,10 @@ msgid "Tear off"
+ msgstr "Afscheuren"
+ 
+ msgid "Tethered Camera Control & Capture"
+-msgstr "Gebonden camera controle & vastleggen"
++msgstr "Gebonden camera controle en vastleggen"
+ 
+ msgid "Tethered Camera Control &amp; Capture"
+-msgstr "Gebonden camera controle &amp; vastleggen"
++msgstr "Gebonden camera controle en vastleggen"
+ 
+ msgid "The Entangle Photo project"
+ msgstr "Het Entangle Photo project"
 diff --git a/src/org.entangle_photo.Manager.metainfo.xml b/src/org.entangle_photo.Manager.metainfo.xml
 index b2f1890..f4e724c 100644
 --- a/src/org.entangle_photo.Manager.metainfo.xml
