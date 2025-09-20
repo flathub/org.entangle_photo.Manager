@@ -1,7 +1,7 @@
 {
     "app-id": "org.entangle_photo.Manager",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "47",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "command": "entangle",
     "finish-args": [
@@ -28,7 +28,6 @@
         "/share/gir-1.0/"
     ],
     "modules": [
-        "shared-modules/libusb/libusb.json",
         {
             "name": "libghoto2",
             "cleanup" : ["/bin", "/lib/udev", "/share/doc", "/share/libgphoto2*", "/lib/libgphoto2*/*/*.la", "/doc"],
@@ -36,8 +35,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url": "https://github.com/gphoto/libgphoto2/releases/download/v2.5.31/libgphoto2-2.5.31.tar.xz",
-                    "sha256": "8fc7bf40f979459509b87dd4ff1aae9b6c1c2b4724d37db576081eec15406ace"
+                    "url": "https://github.com/gphoto/libgphoto2/releases/download/v2.5.32/libgphoto2-2.5.32.tar.xz",
+                    "sha256": "495a347be21b8f970607a81e739aa91513a8479cbd73b79454a339c73e2b860e"
                 }
             ]
         },
@@ -122,7 +121,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://entangle-photo.org/download/sources/entangle-3.0.tar.xz",
+                    "url": "https://entangle-photo.org/download/sources/entangle-3.0.tar.xz",
                     "sha256": "9285ebab273ebe788d39a7c1bf19717cc6312cfcaa0bc55d65cf5a8d4f42a545"
                 },
                 {
